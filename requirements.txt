@@ -4,5 +4,4 @@ langchain_core
 langchain_google_genai
 langchain_chroma
 gdown
---upgrade pip
-sqlite3==3.38.0
+sqlite3
