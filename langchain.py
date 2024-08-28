@@ -31,9 +31,9 @@ class embedding:
     def embed_query(self, query):
         return self.model.encode(query).tolist()
 
-if not os.path.isdir("/MyVectorDB"):
-    os.mkdir('/MyVectorDB')
-    os.mkdir('/MyVectorDB/785d685c-8ac5-4be7-9e32-13b827c88a50')
+# if not os.path.isdir("/MyVectorDB"):
+#     os.mkdir('/MyVectorDB')
+#     os.mkdir('/MyVectorDB/785d685c-8ac5-4be7-9e32-13b827c88a50')
     
     file_id = '1-LspPqw7CET-euOzI8A3L60SQA3CQo9o'
     url = f'https://drive.google.com/uc?id={file_id}'
