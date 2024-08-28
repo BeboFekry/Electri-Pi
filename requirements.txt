@@ -4,4 +4,4 @@ langchain_core
 langchain_google_genai
 langchain_chroma
 gdown
-python==3.10.4
+python==3.10
