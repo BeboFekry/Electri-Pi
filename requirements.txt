@@ -6,4 +6,3 @@ langchain_google_genai
 chromadb
 langchain_chroma
 gdown
-sqlite3
