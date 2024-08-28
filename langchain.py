@@ -15,7 +15,8 @@ from langchain_core.runnables import RunnablePassthrough
 #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
-from langchain_chroma import Chroma
+# from langchain_chroma import Chroma
+from langchain_community.vectorstores import Chroma
 from pathlib import Path
 import gdown
 
