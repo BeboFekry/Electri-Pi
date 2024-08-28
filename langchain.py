@@ -33,8 +33,8 @@ class embedding:
 
 if not os.path.isdir("/MyVectorDB"):
 
-    Path('/MyVectorDB').mkdir(parents=True, exist_ok=True)
-    Path('/MyVectorDB/785d685c-8ac5-4be7-9e32-13b827c88a50').mkdir(parents=True, exist_ok=True)
+    # Path('/MyVectorDB').mkdir(parents=True, exist_ok=True)
+    # Path('/MyVectorDB/785d685c-8ac5-4be7-9e32-13b827c88a50').mkdir(parents=True, exist_ok=True)
 
     file_id = '1-LspPqw7CET-euOzI8A3L60SQA3CQo9o'
     url = f'https://drive.google.com/uc?id={file_id}'
