@@ -17,7 +17,7 @@ from langchain_core.runnables import RunnablePassthrough
 # }
 # from langchain_chroma import Chroma
 from langchain_community.vectorstores import Chroma
-from pathlib import Path
+# from pathlib import Path
 import gdown
 
 API = "AIzaSyBIvw7QEbrnN7HJTBqxu6CI_r7egCWf5tU"
@@ -32,10 +32,9 @@ class embedding:
         return self.model.encode(query).tolist()
 
 if not os.path.isdir("/MyVectorDB"):
-
-    # Path('/MyVectorDB').mkdir(parents=True, exist_ok=True)
-    # Path('/MyVectorDB/785d685c-8ac5-4be7-9e32-13b827c88a50').mkdir(parents=True, exist_ok=True)
-
+    os.makedirs('/MyVectorDB', exist_ok=True)
+    os.makedirs('/MyVectorDB/785d685c-8ac5-4be7-9e32-13b827c88a50', exist_ok=True)
+    
     file_id = '1-LspPqw7CET-euOzI8A3L60SQA3CQo9o'
     url = f'https://drive.google.com/uc?id={file_id}'
     output = 'MyVectorDB/chroma.sqlite3'
