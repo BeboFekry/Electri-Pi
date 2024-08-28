@@ -11,15 +11,6 @@ import gdown
 
 API = "AIzaSyBIvw7QEbrnN7HJTBqxu6CI_r7egCWf5tU"
 
-class embedding:
-    def __init__(self):
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
-    def embed_documents(self, docs):
-        embeddings = self.model.encode(docs)
-        return embeddings.tolist()
-    def embed_query(self, query):
-        return self.model.encode(query).tolist()
-
 file_id = '1-LspPqw7CET-euOzI8A3L60SQA3CQo9o'
 url = f'https://drive.google.com/uc?id={file_id}'
 # output = 'MyVectorDB/chroma.sqlite3'
@@ -51,6 +42,15 @@ gdown.download(url, output, quiet=False)
 # url = f'https://drive.google.com/uc?id={file_id}'
 # output = 'link_lists.bin'
 # gdown.download(url, output, quiet=False)
+
+class embedding:
+    def __init__(self):
+        self.model = SentenceTransformer('all-MiniLM-L6-v2')
+    def embed_documents(self, docs):
+        embeddings = self.model.encode(docs)
+        return embeddings.tolist()
+    def embed_query(self, query):
+        return self.model.encode(query).tolist()
 
 embed_model = embedding()
 
