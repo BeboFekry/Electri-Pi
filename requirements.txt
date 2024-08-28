@@ -1,5 +1,5 @@
 streamlit
-
+langchain
 sentence_transformers
 langchain_core
 langchain_google_genai
