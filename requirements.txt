@@ -4,5 +4,4 @@ langchain_core
 langchain_google_genai
 langchain_chroma
 gdown
-python==3.10
 sqlite3==3.35.0
