@@ -7,4 +7,3 @@ langchain_community
 chromadb
 langchain_chroma
 gdown
-pathlib
