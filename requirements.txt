@@ -4,4 +4,3 @@ langchain_core
 langchain_google_genai
 langchain_chroma
 gdown
-sqlite3==2.6.0
