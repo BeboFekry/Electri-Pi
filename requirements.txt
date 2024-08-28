@@ -3,6 +3,7 @@ langchain
 sentence_transformers
 langchain_core
 langchain_google_genai
+langchain_community
 chromadb
 langchain_chroma
 gdown
