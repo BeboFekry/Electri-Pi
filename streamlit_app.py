@@ -26,31 +26,31 @@ url = f'https://drive.google.com/uc?id={file_id}'
 outpur = "chroma.sqlite3"
 gdown.download(url, output, quiet=False)
 
-file_id = "1-XNpT7b_W6MR-9PyOyQT-4J4fnnzBdjO"
-url = f'https://drive.google.com/uc?id={file_id}'
-# output = 'MyVectorDB/785d685c-8ac5-4be7-9e32-13b827c88a50/data_level0.bin'
-outpur = "data_level0.bin"
-gdown.download(url, output, quiet=False)
+# file_id = "1-XNpT7b_W6MR-9PyOyQT-4J4fnnzBdjO"
+# url = f'https://drive.google.com/uc?id={file_id}'
+# # output = 'MyVectorDB/785d685c-8ac5-4be7-9e32-13b827c88a50/data_level0.bin'
+# outpur = "data_level0.bin"
+# gdown.download(url, output, quiet=False)
 
-file_id = "1-cYtH2qkE-3ouIAZuTKsprLo00i0WEiI"
-url = f'https://drive.google.com/uc?id={file_id}'
-output = 'header.bin'
-gdown.download(url, output, quiet=False)
+# file_id = "1-cYtH2qkE-3ouIAZuTKsprLo00i0WEiI"
+# url = f'https://drive.google.com/uc?id={file_id}'
+# output = 'header.bin'
+# gdown.download(url, output, quiet=False)
 
-file_id = "1-QpaRSHPlF-6GYivut1HGe9L0Ec-9pAi"
-url = f'https://drive.google.com/uc?id={file_id}'
-output = 'index_metadata.pickle'
-gdown.download(url, output, quiet=False)
+# file_id = "1-QpaRSHPlF-6GYivut1HGe9L0Ec-9pAi"
+# url = f'https://drive.google.com/uc?id={file_id}'
+# output = 'index_metadata.pickle'
+# gdown.download(url, output, quiet=False)
 
-file_id = "1-jwYjTVXbJT75Kvme70EWosCfkfV8p__"
-url = f'https://drive.google.com/uc?id={file_id}'
-output = 'length.bin'
-gdown.download(url, output, quiet=False)
+# file_id = "1-jwYjTVXbJT75Kvme70EWosCfkfV8p__"
+# url = f'https://drive.google.com/uc?id={file_id}'
+# output = 'length.bin'
+# gdown.download(url, output, quiet=False)
 
-file_id = "1-jYB22FMgoYND6D34Rp2mHDsT_C6YL5N"
-url = f'https://drive.google.com/uc?id={file_id}'
-output = 'link_lists.bin'
-gdown.download(url, output, quiet=False)
+# file_id = "1-jYB22FMgoYND6D34Rp2mHDsT_C6YL5N"
+# url = f'https://drive.google.com/uc?id={file_id}'
+# output = 'link_lists.bin'
+# gdown.download(url, output, quiet=False)
 
 embed_model = embedding()
 
