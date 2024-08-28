@@ -11,7 +11,7 @@ import gdown
 
 API = "AIzaSyBIvw7QEbrnN7HJTBqxu6CI_r7egCWf5tU"
 
-if not os.path.exists("chroma.sqlite3"):
+if not os.path.exists("MyVectorDB/chroma.sqlite3"):
     file_id = '1-LspPqw7CET-euOzI8A3L60SQA3CQo9o'
     url = f'https://drive.google.com/uc?id={file_id}'
     output = 'MyVectorDB/chroma.sqlite3'
